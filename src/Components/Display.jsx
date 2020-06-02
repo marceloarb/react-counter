@@ -1,12 +1,13 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 function Display(props) {
-    // const [display,setDisplay] = useState(0);
+    
 
     return (
-        <section className="display">
-            This is the Display for the Counter.
-        </section>
+        <div className="display">
+            <p>{props.displayCount}</p>
+        </div>
+        
     )
 
 
