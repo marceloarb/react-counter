@@ -1,17 +1,19 @@
 import React from 'react';
 import './App.css';
 import Counter from './Components/Counter';
+import "bootstrap/dist/css/bootstrap.css";
 
 const App = (props)=> {
   return (
-    <div className="App">
+    <div className="container">
+      <div className="App">
       <header className="App-header">
         <h2>Counter App</h2>
       </header>
-      <ButtonThree/>
        
       <Counter />
-    </div>
+    </div></div>
+    
   );
 }
 const ButtonThree = (props) => {
@@ -20,7 +22,5 @@ const ButtonThree = (props) => {
   }
   return <button onClick={handleClick}>Click Me!</button>;
 }
-const Increment = () =>{
-    
-}
+
 export default App;

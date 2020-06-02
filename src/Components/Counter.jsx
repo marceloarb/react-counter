@@ -10,7 +10,10 @@ const Counter=()=> {
             <Display displayCount={count}  />
             <ButtonPad 
             onIncremente={() => setCount(count + 1)}
+            onIncrementeTwo={() => setCount(count + 2)}
+            onIncrementeFive={() => setCount(count + 5)}
             onDecremente={() => setCount(count - 1)}
+            onReset={()=> setCount(0)}
             />
         </div>
     )
