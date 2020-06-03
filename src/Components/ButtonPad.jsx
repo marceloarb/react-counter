@@ -6,7 +6,7 @@ import ReactCSSTransitionGroup from 'react-transition-group';
 export default function ButtonPad(props) {
     return (
         <div className="Display"  >
-            <button className="badge badge-dark m-3" onClick={props.onIncrementeFive} ><img src="https://img.icons8.com/dusk/64/000000/unity-5.png"/></button>
+            <button className="badge badge-dark m-3" onClick={props.onIncrementeFive}  ><img src="https://img.icons8.com/dusk/64/000000/unity-5.png"/></button>
             <br></br>
             <button className="badge badge-dark m-3"  onClick={props.onIncremente}
              ><svg className="bi bi-plus-circle " width="8.4em" height="8.4em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

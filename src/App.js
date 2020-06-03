@@ -10,7 +10,6 @@ const App = (props)=> {
       <header className="App-header">
         <h2>Counter App</h2>
       </header>
-       
       <Counter />
     </div></div>
     
