@@ -1,5 +1,5 @@
 import React from 'react';
-import "/Users/marcelobarbosa/Documents_copy/teksystems/react-counter/src/Components/Display.css";
+import "./DisplayCss.css";
 import "bootstrap/dist/css/bootstrap.css";
 import AnimatedNumber from 'react-animated-number';
 

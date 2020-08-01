@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-import Display from './Display';
+import  "./DisplayCss.css";
+import Display from "../Components/Display"
 import ButtonPad from './ButtonPad';
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.css";
-import "/Users/marcelobarbosa/Documents_copy/teksystems/react-counter/src/Components/Display.css";
+import "./DisplayCss.css";
 import ReactCSSTransitionGroup from 'react-transition-group';
 
 export default function ButtonPad(props) {
